@@ -6,4 +6,4 @@ app.use(ctx => {
 });
 
 console.log('App started');
-app.listen(2000);
+app.listen(process.env.PORT || 8080);
